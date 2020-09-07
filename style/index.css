@@ -1,1 +1,76 @@
-/* Add CSS styling here */
+
+
+html{
+    
+}
+header{
+    font-size:36px;
+    display:flex;
+    justify-content:center;
+}
+.heading{
+    border:1px solid black;
+    
+      
+}
+h1{
+    display:flex;
+    justify-content:center;
+}
+h2{
+    display:flex;
+    justify-content:center;
+}
+nav{
+    display:flex;
+    justify-content:center;
+        
+}
+nav a{
+    display:inline-block;
+    width:15%;
+    margin:0.1%;
+   text-decoration:none;
+   background-color:dodgerblue;
+   font-size:24px;
+   border:3px solid blue;
+
+}
+.intro{
+    border:1px solid black;
+    background-color:rgba(19, 194, 199, 0.73)
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.main {
+    display: flex;
+  border:1px solid black;
+  flex-direction:column;
+   justify-content:flex-end;
+  background-color:aquamarine;
+  
+   
+}
+#mainImg {
+    width:30%;
+}
+  .hobbies{
+      display:flex;
+      justify-content:space-evenly;
+      flex-wrap:wrap;
+     margin:10%;
+      
+  }
+  .hobbies img{
+      border:inset 3px black;
+  }
+#coding {
+    object-fit: cover;
+    border: solid 1px black;
+}
+#hobby {
+    background-color: rgba(12, 136, 241, 0.8);
+    border: groove 1px;
+}
